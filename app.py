@@ -115,5 +115,5 @@ def checkout():
     session.pop("email")
     flash(("Checked out successfully", "success"))
     return redirect("/flights")
-if __name__ == '__main__':
-    app.run(debug = True)
+# if __name__ == '__main__':
+#     app.run(debug = True)
